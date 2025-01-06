@@ -11,7 +11,7 @@
         <div class="card-body">
           <div class="app-brand justify-content-center">
             <div class="col-md-12">
-              <h3 class="text-center mt-5 mb-3">REGISTRAR USUARIO</h3>
+              <h3 class="text-center mt-5 mb-3">REGISTRAR USUARIO - EMPLEADO</h3>
               <hr />
             </div>
           </div>
@@ -30,7 +30,7 @@
                 name="cedula"
                 required
                 autofocus />
-            </div>
+            </div>   
             <div class="row">
               <div class="mb-3 col-md-6">
                 <label for="name_surname" class="form-label">
@@ -54,7 +54,30 @@
                   required
                   autofocus />
               </div>
-
+              <div class="row">
+                <div class="mb-3 col-md-6">
+                  <label for="genero" class="form-label">
+                    Genero
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="genero"
+                    required
+                    autofocus />
+                </div>
+                <div class="mb-3 col-md-6">
+                  <label for="estado" class="form-label">
+                    Estado
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="estado"
+                    required
+                    autofocus />
+                </div>
+              </div>
             </div>
             
             <div class="row">
@@ -114,3 +137,4 @@
 </div>
 
 {% endblock %}
+ 
